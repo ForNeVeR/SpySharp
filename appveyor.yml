@@ -1,0 +1,4 @@
+before_build:
+- ps: ./Prebuild.ps1
+
+version: 0.0.1.{build}
