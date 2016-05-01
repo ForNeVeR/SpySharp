@@ -1,4 +1,5 @@
 .assembly extern mscorlib { auto }
+.assembly extern System { auto }
 .assembly SpySharp.Hooker {}
 .module SpySharp.Hooker.dll
 
@@ -8,6 +9,10 @@ native int LoadLibrary (string lpFileName) cil managed preservesig {}
 .namespace SpySharp.Hooker {
     .class public Hook {
         .method public static class SpySharp.Hooker.Hook Create(native int handle) {
+            ldstr "SpySharp.Hooker.dll"
+            call native int LoadLibrary (string)
+            box native int
+            call void [System]System.Diagnostics.Debug::WriteLine (object)
             ldnull
             ret
         }

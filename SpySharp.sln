@@ -18,6 +18,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpySharp.Hooker", "SpySharp.Hooker", "{1F1E2FA9-1FDB-488A-ADB4-E26EB1378514}"
 	ProjectSection(SolutionItems) = preProject
 		SpySharp.Hooker\Build.ps1 = SpySharp.Hooker\Build.ps1
+		SpySharp.Hooker\Hooks.il = SpySharp.Hooker\Hooks.il
 	EndProjectSection
 EndProject
 Global
