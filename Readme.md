@@ -1,4 +1,4 @@
-SpySharp [![Status Umbra][status-umbra]][andivionian-status-classifier]
+SpySharp [![Status Umbra][status-andivionian]][andivionian-status-classifier] [![Build status][status-appveyor]][appveyor]
 ======
 SpySharp is an application for runtime introspection of Windows Forms programs.
 
@@ -15,6 +15,8 @@ SpySharp is licensed under the terms of MIT License. See License.md file for
 details.
 
 [andivionian-status-classifier]: https://github.com/ForNeVeR/andivionian-status-classifier
+[appveyor]: https://ci.appveyor.com/project/ForNeVeR/spysharp/branch/master
 [paket]: http://fsprojects.github.io/Paket/
 
-[status-umbra]: https://img.shields.io/badge/status-umbra-red.svg
+[status-andivionian]: https://img.shields.io/badge/status-umbra-red.svg
+[status-appveyor]: https://ci.appveyor.com/api/projects/status/41idmwnliu455xik/branch/develop?svg=true
