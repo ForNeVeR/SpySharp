@@ -1,3 +1,4 @@
+.assembly extern mscorlib { auto }
 .assembly SpySharp.Hooker {}
 .module SpySharp.Hooker.dll
 
