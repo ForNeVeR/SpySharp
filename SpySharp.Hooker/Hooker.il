@@ -13,8 +13,13 @@ native int LoadLibrary (string lpFileName) cil managed preservesig {}
             call native int LoadLibrary (string)
             box native int
             call void [System]System.Diagnostics.Debug::WriteLine (object)
+            // TODO: Call GetProcAddress
+            // TODO: Call SetWindowsHookEx
+            // TODO: Unload library?
             ldnull
             ret
         }
+
+        // TODO: Define hook function
     }
 }

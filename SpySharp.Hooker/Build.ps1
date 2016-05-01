@@ -9,4 +9,4 @@ if (-not (Test-Path $outputDirectory)) {
     New-Item -Type Directory $outputDirectory
 }
 
-& $ilasm $PSScriptRoot/Hooks.il /dll /output=$outputDirectory/SpySharp.Hooker.dll /debug /pdb
+& $ilasm $PSScriptRoot/Hooker.il /dll /output=$outputDirectory/SpySharp.Hooker.dll /debug /pdb
