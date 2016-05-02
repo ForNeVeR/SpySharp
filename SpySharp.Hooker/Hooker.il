@@ -3,23 +3,13 @@
 .assembly SpySharp.Hooker {}
 .module SpySharp.Hooker.dll
 
-.method public static pinvokeimpl("Kernel32.dll" cdecl)
-native int LoadLibrary (string lpFileName) cil managed preservesig {}
+.method assembly static native int modopt ([mscorlib]System.Runtime.CompilerServices.CallConvStdcall) HookProc(
+    int32 nCode,
+    native int lParam,
+    native int wParam) {
+    .vtentry 1 : 1
+    .export [1] as HookProc
 
-.namespace SpySharp.Hooker {
-    .class public Hook {
-        .method public static class SpySharp.Hooker.Hook Create(native int handle) {
-            ldstr "SpySharp.Hooker.dll"
-            call native int LoadLibrary (string)
-            box native int
-            call void [System]System.Diagnostics.Debug::WriteLine (object)
-            // TODO: Call GetProcAddress
-            // TODO: Call SetWindowsHookEx
-            // TODO: Unload library?
-            ldnull
-            ret
-        }
-
-        // TODO: Define hook function
-    }
+    ldc.i4.0
+    ret
 }
