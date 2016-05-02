@@ -25,22 +25,22 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SpySharp.Core", "SpySharp.C
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{32F3F07A-5C52-4B80-A087-763306B21272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{32F3F07A-5C52-4B80-A087-763306B21272}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{32F3F07A-5C52-4B80-A087-763306B21272}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{32F3F07A-5C52-4B80-A087-763306B21272}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3033D2D7-D429-4D46-8DF5-E95F9287D57E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3033D2D7-D429-4D46-8DF5-E95F9287D57E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3033D2D7-D429-4D46-8DF5-E95F9287D57E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3033D2D7-D429-4D46-8DF5-E95F9287D57E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{33EA19AD-49BF-4A5E-86C6-8C7538FF8E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{33EA19AD-49BF-4A5E-86C6-8C7538FF8E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{33EA19AD-49BF-4A5E-86C6-8C7538FF8E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{33EA19AD-49BF-4A5E-86C6-8C7538FF8E96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32F3F07A-5C52-4B80-A087-763306B21272}.Debug|x86.ActiveCfg = Debug|x86
+		{32F3F07A-5C52-4B80-A087-763306B21272}.Debug|x86.Build.0 = Debug|x86
+		{32F3F07A-5C52-4B80-A087-763306B21272}.Release|x86.ActiveCfg = Release|x86
+		{32F3F07A-5C52-4B80-A087-763306B21272}.Release|x86.Build.0 = Release|x86
+		{3033D2D7-D429-4D46-8DF5-E95F9287D57E}.Debug|x86.ActiveCfg = Debug|x86
+		{3033D2D7-D429-4D46-8DF5-E95F9287D57E}.Debug|x86.Build.0 = Debug|x86
+		{3033D2D7-D429-4D46-8DF5-E95F9287D57E}.Release|x86.ActiveCfg = Release|x86
+		{3033D2D7-D429-4D46-8DF5-E95F9287D57E}.Release|x86.Build.0 = Release|x86
+		{33EA19AD-49BF-4A5E-86C6-8C7538FF8E96}.Debug|x86.ActiveCfg = Debug|x86
+		{33EA19AD-49BF-4A5E-86C6-8C7538FF8E96}.Debug|x86.Build.0 = Debug|x86
+		{33EA19AD-49BF-4A5E-86C6-8C7538FF8E96}.Release|x86.ActiveCfg = Release|x86
+		{33EA19AD-49BF-4A5E-86C6-8C7538FF8E96}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
