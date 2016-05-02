@@ -7,7 +7,7 @@ open System.Reflection
 
 open Xunit
 
-open SpySharp.Hooker
+open SpySharp.Core
 
 [<Fact>]
 let ``HookWindow should be executed successfully`` () =
@@ -21,7 +21,7 @@ let ``HookWindow should be executed successfully`` () =
     use ``process`` = Process.Start file
     try
         let handle = ``process``.MainWindowHandle
-        let hook = Hook.Create handle
+        let hook = Hook.create handle
 
         Assert.NotNull hook
     finally

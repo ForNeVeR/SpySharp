@@ -83,6 +83,11 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />
+    <ProjectReference Include="..\SpySharp.Core\SpySharp.Core.fsproj">
+      <Name>SpySharp.Core</Name>
+      <Project>{33ea19ad-49bf-4a5e-86c6-8c7538ff8e96}</Project>
+      <Private>True</Private>
+    </ProjectReference>
     <ProjectReference Include="..\SpySharp.Tests.App\SpySharp.Tests.App.csproj">
       <Name>SpySharp.Tests.App</Name>
       <Project>{32f3f07a-5c52-4b80-a087-763306b21272}</Project>
