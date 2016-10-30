@@ -14,7 +14,7 @@ if (-not (Test-Path $OutputDirectory)) {
 }
 
 function Get-FileDate($fileName) {
-    $file = Get-ChildItem $fileName
+    $file = Get-ChildItem $fileName -ErrorAction SilentlyContinue
     if ($file -eq $null) {
         [DateTime]::MinValue
     } else {
