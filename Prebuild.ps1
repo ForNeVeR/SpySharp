@@ -40,15 +40,7 @@ if (-not $?) {
     exit -1
 }
 
-
 Write-Output "Running paket restore"
 & $paket restore
-
-if (-not $?) {
-    exit -1
-}
-
-Write-Output "Building Hooker"
-& "$PSScriptRoot/SpySharp.Hooker/Build.ps1"
 
 exit (-not $?)

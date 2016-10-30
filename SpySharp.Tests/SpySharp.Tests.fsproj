@@ -238,4 +238,7 @@
       </ItemGroup>
     </When>
   </Choose>
+  <PropertyGroup>
+    <PreBuildEvent>powershell -NoProfile "$(ProjectDir)/../SpySharp.Hooker/Build.ps1"</PreBuildEvent>
+  </PropertyGroup>
 </Project>
